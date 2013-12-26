@@ -45,13 +45,13 @@ ZSH_THEME="ms"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-extras brew node npm python compleat colored-man colorize bower)
+plugins=(git git-extras brew sublime node npm python compleat colored-man colorize bower)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/Users/user/.rvm/gems/ruby-1.9.3-p327/bin:/Users/user/.rvm/gems/ruby-1.9.3-p327@global/bin:/Users/user/.rvm/rubies/ruby-1.9.3-p327/bin:/Users/user/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="~/.rvm/gems/ruby-1.9.3-p327/bin:~/.rvm/gems/ruby-1.9.3-p327@global/bin:~/.rvm/rubies/ruby-1.9.3-p327/bin:~/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
